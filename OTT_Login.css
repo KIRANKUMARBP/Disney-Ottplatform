@@ -1,0 +1,103 @@
+body {
+    background: url('Images/Disneybackground.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.login-box {
+    background: rgba(3, 6, 10, 0.85);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+
+.login-box h1 {
+    font-size: 2.8em;
+    margin-bottom: 25px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #394a59;
+    color: #fff;
+    font-size: 1em;
+}
+
+.input-group input:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 114, 210, 0.7);
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #0072D2 0%, #005bb5 100%);
+    border: none;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #4098bb 0%, #507ba9 100%);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.signup-link {
+    margin-top: 25px;
+    font-size: 1em;
+}
+
+.signup-link a {
+    color: #1e90ff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.signup-link a:hover {
+    color: #63b3ed;
+    text-decoration: underline;
+}
